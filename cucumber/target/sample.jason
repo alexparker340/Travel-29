@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Login with correct userName and correct password",
+        "description": "",
+        "id": "validate-the-facebook-page;validate-login-with-correct-username-and-correct-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8082503800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Facebook page on chrome Browser",
+            "match": {
+              "location": "stepdef.user_is_on_Facebook_page_on_chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271289500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "stepdef.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 869402800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user shouls click on login butoon",
+            "match": {
+              "location": "stepdef.user_shouls_click_on_login_butoon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should verify the Homepage is displayed or not",
+            "match": {
+              "location": "stepdef.user_should_verify_the_Homepage_is_displayed_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the FaceBook Page",
+    "description": "",
+    "id": "validate-the-facebook-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/Alex/.eclipse/cucumber/src/test/resources/fb.feature",
+    "tags": []
+  }
+]
